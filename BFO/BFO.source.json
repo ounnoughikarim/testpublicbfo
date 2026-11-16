@@ -1,0 +1,44 @@
+{
+  "id": "01KZ93ZM3MK3NN0AZ4CD1N1QF6",
+  "name": "BFO",
+  "prefix": "bfo",
+  "baseUri": "http://purl.obolibrary.org/obo/bfo.owl",
+  "graphUri": "http://purl.obolibrary.org/obo/bfo.owl",
+  "sparql_server": {
+    "url": "_default",
+    "method": "POST"
+  },
+  "controller": "Sparql_OWL",
+  "topClassFilter": "",
+  "schemaType": "OWL",
+  "dataSource": {
+    "type": "",
+    "connection": "_default",
+    "dbName": "",
+    "table_schema": "",
+    "local_dictionary": {
+      "table": "",
+      "idColumn": "",
+      "labelColumn": ""
+    }
+  },
+  "schema": null,
+  "editable": false,
+  "color": "#bcbd22",
+  "isDraft": false,
+  "allowIndividuals": false,
+  "predicates": {
+    "broaderPredicate": "",
+    "lang": ""
+  },
+  "group": "STANDARDS/ABSTRACT ONTOLOGIES",
+  "owner": "admin",
+  "published": true,
+  "imports": [],
+  "taxonomyPredicates": [
+    "rdfs:subClassOf"
+  ],
+  "gitRepository": {
+    "url": "https://github.com/ounnoughikarim/testpublicbfo.git"
+  }
+}
